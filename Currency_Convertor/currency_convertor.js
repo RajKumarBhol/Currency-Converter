@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  
   const currencies = [
     { code: "USD", name: "United States Dollar" },
     { code: "EUR", name: "Euro (Europe)" },
