@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const fromSelect = document.getElementById("fromCurrency");
   const toSelect = document.getElementById("toCurrency");
 
-  // Populate dropdowns
+  
   currencies.forEach(({ code, name }) => {
     const option = new Option(`${name} (${code})`, code);
     fromSelect.add(option.cloneNode(true));
