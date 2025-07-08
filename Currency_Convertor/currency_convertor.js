@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
     { code: "ISK", name: "Icelandic Krona" }
   ];
 
-  
   const fromSelect = document.getElementById("fromCurrency");
   const toSelect = document.getElementById("toCurrency");
 
