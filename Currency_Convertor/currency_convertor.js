@@ -68,7 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
   fromSelect.value = "USD";
   toSelect.value = "INR";
 
-  // Dark mode toggle
   const toggle = document.getElementById("themeToggle");
   toggle.addEventListener("change", () => {
     document.body.classList.toggle("dark");
