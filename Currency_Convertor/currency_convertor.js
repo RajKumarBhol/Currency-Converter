@@ -74,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
 async function convert() {
   const amount = document.getElementById("amount").value.trim();
   const from = document.getElementById("fromCurrency").value;
