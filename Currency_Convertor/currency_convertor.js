@@ -99,6 +99,7 @@ async function convert() {
   } catch (error) {
     console.error("Conversion error:", error);
     resultElement.textContent = "Conversion failed. Please try again.";
+
     
   }
 }
