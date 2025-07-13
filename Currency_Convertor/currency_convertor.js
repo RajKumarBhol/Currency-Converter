@@ -64,7 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
     toSelect.add(option.cloneNode(true));
   });
 
-
   fromSelect.value = "USD";
   toSelect.value = "INR";
 
